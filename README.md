@@ -4,7 +4,7 @@ A GUI wallet for [TurtleCoin](https://github.com/turtlecoin/turtlecoin), based o
 
 ## Getting Started
 
-To get started, install the prerequisites as detailed below, then look at the "Running" section
+To get started, install the prerequisites manually as detailed or run the setup scripts below, then look at the "Running" section
 
 ### Prerequisites
 
@@ -22,6 +22,14 @@ __WINDOWS__: PyGObject instructions for Windows requires MSYS to be running. Som
 platform and additionally it adds some overhead to development. This [installer](https://sourceforge.net/projects/pygobjectwin32/) installs the required GTK libs natively.
 The installer contains a wizard which will guide you through selecting which python environment and from there you have options of which libs
 you want installed: look for the GTK and glade options.
+
+### Setup scripts
+
+**Mac OSX**
+Install all prerequestistes automatically by running:
+```
+./setup/macosx_setup.sh
+```
 
 ### Running
 
